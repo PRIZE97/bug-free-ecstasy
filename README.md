@@ -11,9 +11,7 @@ cout << endl <<  "Please enter all the grades you wish to use for your GPA." << 
 cout << endl <<  "When you have finished, enter N to indicate that you have no more grades." << endl;
 
 cout << endl << "The highest acceptable grade is 100%, if you got higher than this congratulations but please enter only 100 as grade."  << endl;
-
 cout << endl;
-
 float Grade = 0;
 int NumClass = 0;
 const int Stop = -1;
@@ -21,7 +19,6 @@ float GPAVal = 0;
 float TotGPAVal = 0;
 float GPA = 0;
 string SemName;
-
 while (SemName != -1)
         {
         cout << "Please enter name of the semester of grades you want to enter." << endl;
@@ -68,14 +65,10 @@ while (SemName != -1)
                 NumClass = NumClass + 1;
                 }
         while (( Grade >= 0 ) && ( Grade <=100 ));
-
-
         if (SemName = -1)
                 {
                 cout << "Thank you for using this program!" << endl;
                 }
         }
-
-
 return (0);
 }
